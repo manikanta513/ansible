@@ -1,0 +1,11 @@
+- name: ignoring errors
+  hosts: all
+  tasks:
+   - name: check the tomcat process is running
+     shell: ps -ef | grep tomcat | grep -v grep
+     register: OUT
+     ignore_errors: yes
+
+   - name: check the output of process
+     debug:
+      msg: "{{OUT}}"

@@ -1,0 +1,25 @@
+- name: conditions
+  hosts: all
+  vars:
+   action1: true
+   sample: one
+  tasks:
+   - name: run when os is centos
+     debug:
+      msg: hello to centos
+     when: ansible_distribution == "CentOS"
+   
+   - name: run when os is unbuntu
+     debug:
+      msg: hello to unbuntu
+     when: ansible_distribution == "Debian"
+
+   - name: pring msg when variable action1 defined true
+     debug:
+      msg: hello
+     when: action1
+
+   - name: print msg when sample variable is defined
+     debug:
+       msg: hello to sample
+     when: sample is defined

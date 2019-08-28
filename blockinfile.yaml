@@ -1,0 +1,15 @@
+- name: blockinfile
+  hosts: all
+  tasks:
+   - name: blockinfile adding lines into the file
+     blockinfile:
+      path: /tmp/sample.txt
+      create: yes
+      block: |
+        ProxyPass "/student" "http://localhost:8080/student"
+        ProxyPassReverse "/student"  "http://localhost:8080/student"
+        ProxyPass "/web" "http://localhost:8080/student"
+        ProxyPassReverse "/web"  "http://localhost:8080/student"
+        ProxyPass "/api" "http://localhost:8090/"
+        ProxyPassReverse "/api"  "http://localhost:8090/"
+

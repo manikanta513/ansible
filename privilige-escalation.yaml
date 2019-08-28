@@ -1,0 +1,11 @@
+- name: demo on privilige escalation
+  hosts: all
+  tasks:
+   - name: run id command
+     shell: id
+     register: out
+     become: yes
+  
+   - name: print output
+     debug:
+      msg: "{{out}}"

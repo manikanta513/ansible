@@ -1,0 +1,10 @@
+- name: play
+  hosts: all
+  tasks:
+   - name: play1
+     debug:
+      msg: hello from play12
+   - name: play2
+     debug:
+      msg: OS Name - {{ansible_distribution}}
+      

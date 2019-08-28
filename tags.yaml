@@ -1,0 +1,22 @@
+- name: tags
+  hosts: all
+  tasks:
+    - name: performing webserver installation
+      debug:
+       msg: web install
+      tags: web
+
+
+
+    - name: performing application server installation
+      debug:
+       msg: application server install
+      tags: app
+
+
+
+note: command to execute script
+
+ansible-playbook tags.yaml -t web (it will run only task with tag web)
+
+ansible-playbook tags.yaml -t app (it will run only task with tag app)

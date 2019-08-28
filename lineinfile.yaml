@@ -1,0 +1,7 @@
+- name: Demo on lineinfile
+  hosts: all
+  tasks:
+    -name: manage line with in the filee
+     lineinfile:
+      path: /tmp/template.txt
+      line: hello
