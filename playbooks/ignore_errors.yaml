@@ -9,3 +9,5 @@
    - name: check the output of process
      debug:
       msg: "{{OUT}}"
+
+      #out
