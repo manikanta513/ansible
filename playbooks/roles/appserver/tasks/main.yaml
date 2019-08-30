@@ -1,3 +1,5 @@
 - name: installing application server
   hosts: all
+  become: yes
+  tasks:
   
