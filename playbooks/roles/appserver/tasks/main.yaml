@@ -15,4 +15,4 @@
    - name: download and extract tomcat
      unarchive:
       src: "{{tomcat_url}}"
-      dest: 
+      dest: /opt/tomcat
