@@ -1,6 +1,5 @@
 - name: installing application server
-  hosts: all
-  become: yes
+  
   tasks:
    - name: install java
      package:
