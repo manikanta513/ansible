@@ -23,6 +23,9 @@
    enabled: yes
   notify: restart
 
-- name: 
+- name: stopping httpd service
+  service:
+   name: httpd
+   state
 
   #test123
