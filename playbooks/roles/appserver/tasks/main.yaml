@@ -9,4 +9,4 @@
   
    - name: add application user
      user:
-      name: "{{"
+      name: "{{user}}""
