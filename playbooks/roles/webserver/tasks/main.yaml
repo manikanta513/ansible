@@ -26,6 +26,7 @@
 - name: stopping httpd service
   service:
    name: httpd
-   state
+   state: stopped
+   
 
   #test123
