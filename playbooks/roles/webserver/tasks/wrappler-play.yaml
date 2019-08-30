@@ -1,1 +1,1 @@
-- import_playbook: blo
+- import_playbook: blockinfile.yaml
