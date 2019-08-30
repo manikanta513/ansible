@@ -10,4 +10,5 @@
    - name: add application user
      user:
       name: "{{user}}"
-      comment: 
+      comment: student
+      
