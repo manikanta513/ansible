@@ -6,3 +6,5 @@
    - name: acessing variable define @ file level
      debug:
       msg: the url is - {{$URL}}
+  
+   
