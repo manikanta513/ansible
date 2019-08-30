@@ -1,0 +1,16 @@
+-------------------- Auto-Git Log --------------------
+		Fri Aug 30 2019 09:54:49 GMT+0530 (India Standard Time)
+------------------------------------------------------
+
+Modified files:
+* playbooks/vars.yaml
+
+
+Created files:
+* .autogit/logs/log-30-7-2019-9-54-35.txt
+
+
+Deleted files:
+
+
+Renamed files:
