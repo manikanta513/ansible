@@ -8,4 +8,5 @@
       msg: the url is - {{$URL}}
   
    - name: accessing varibales define with in the task
-     
+     debug:
+      mssg: 
