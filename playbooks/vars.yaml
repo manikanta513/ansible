@@ -1,4 +1,4 @@
 - name: defining and accessing variables
   hosts: all
   vars:
-    URL: 
+    URL: google.c
