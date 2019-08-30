@@ -1,1 +1,3 @@
-- name
+- name: installing application server
+  hosts: all
+  
