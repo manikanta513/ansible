@@ -29,9 +29,9 @@
    state: stopped
 
 - name: uninstalling httpd service
-  service:
+  package:
    name: httpd
-   
+
 
 
   #test123
