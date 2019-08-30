@@ -9,4 +9,5 @@
   
    - name: add application user
      user:
-      name: 
+      name: student
+      
