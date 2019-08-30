@@ -4,3 +4,6 @@
   tasks:
    - name: install java
      package:
+      name: java
+      state: present
+      
