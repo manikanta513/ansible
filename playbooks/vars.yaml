@@ -11,4 +11,4 @@
      debug:
       msg: the url is - {{URL}}
      vars:
-       URL: yahoo.com
+      URL: yahoo.com
