@@ -31,6 +31,7 @@
 - name: uninstalling httpd service
   package:
    name: httpd
+   state: absent 
 
 
 
