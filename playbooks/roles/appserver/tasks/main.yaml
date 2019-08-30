@@ -7,4 +7,4 @@
       name: java
       state: present
   
-   - 
+   - name: add application user
