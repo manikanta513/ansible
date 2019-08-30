@@ -9,6 +9,6 @@
   
    - name: accessing varibales define with in the task
      debug:
-      mssg: the url is - {{URL}}
+      msg: the url is - {{URL}}
       vars:
        URL: yahoo.com
