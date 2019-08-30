@@ -3,4 +3,5 @@
   vars:
     URL: google.com
   tasks:
-   - name: acessing variable define @ 
+   - name: acessing variable define @ file level
+     
