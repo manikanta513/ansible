@@ -1,2 +1,4 @@
 - name: defining and accessing variables
-  hosts
+  hosts: all
+  vars:
+    URL: 
