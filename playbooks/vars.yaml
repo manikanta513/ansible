@@ -1,4 +1,6 @@
 - name: defining and accessing variables
   hosts: all
   vars:
-    URL: google.c
+    URL: google.com
+  tasks:
+   - name: aceesing 
