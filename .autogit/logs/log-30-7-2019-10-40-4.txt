@@ -1,0 +1,16 @@
+-------------------- Auto-Git Log --------------------
+		Fri Aug 30 2019 10:40:04 GMT+0530 (India Standard Time)
+------------------------------------------------------
+
+Modified files:
+* playbooks/roles/webserver/tasks/wrappler-play.yaml
+
+
+Created files:
+* .autogit/logs/log-30-7-2019-10-39-54.txt
+
+
+Deleted files:
+
+
+Renamed files:
