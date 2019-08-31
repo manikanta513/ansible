@@ -18,3 +18,4 @@
    - name:  download the war file
      get_url:
       url: "${{war_url}}"
+      dest: 
