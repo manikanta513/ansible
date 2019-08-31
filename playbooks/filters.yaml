@@ -5,6 +5,6 @@
   dir: "{{ url.split('/') | last | regex_replace('.tar.gz', '') }}"
  tasks:
   debug:
-   msg: "{{ dir }}"
+   msg: "{{dir}}"
 
 
