@@ -7,4 +7,6 @@
       recurse: yes
     register: out
 
-   - name: output files 
+   - name: output files in directory
+     debug:
+      msg: 
