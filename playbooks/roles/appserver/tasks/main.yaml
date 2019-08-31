@@ -16,7 +16,7 @@
 
    - name: find old directories
      files:
-      
+      path:
  
    - name:  download the war file
      get_url:
