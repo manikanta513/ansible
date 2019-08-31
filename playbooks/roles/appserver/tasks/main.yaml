@@ -20,10 +20,11 @@
       file_type: any
      register: out
 
-   - name: 
+   - name: dlete finded directories
+     files
 
  
    - name:  download the war file
      get_url:
       url: "${{war_url}}"
-      dest: /home/{{user}}/{{tomact_file_name}}/webapps/student.war
+      dest: /home/{{user}}/{{tomact_file_name}}/webapps/student.
