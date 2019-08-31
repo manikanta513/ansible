@@ -23,7 +23,8 @@
    - name: dlete finded directories
      files:
       path: "{{item.path}}"
-      
+      state: absent
+    loop: {{}}
      
 
  
