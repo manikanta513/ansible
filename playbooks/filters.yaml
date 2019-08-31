@@ -3,4 +3,6 @@
  variables: 
   url: http://mirrors.sonic.net/apache/tomcat/tomcat-8/v8.5.45/bin/apache-tomcat-8.5.45.tar.gz
   dir: "{{url.split('/') | last}}"
+ tasks:
+ 
 
