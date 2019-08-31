@@ -24,7 +24,7 @@
      files:
       path: "{{item.path}}"
       state: absent
-    loop: {{}}
+    loop: "{{}}""
      
 
  
