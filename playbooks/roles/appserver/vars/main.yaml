@@ -1,5 +1,5 @@
 user: student
-
+user_home: /
 tomcat_url: http://mirrors.sonic.net/apache/tomcat/tomcat-8/v8.5.45/bin/apache-tomcat-8.5.45.tar.gz
 war_url: https://s3-us-west-2.amazonaws.com/studentapi-cit/student.war -O apache-tomcat-8.5.37/webapps/student.war
 jar_url: https://s3-us-west-2.amazonaws.com/studentapi-cit/mysql-connector.jar -O apache-tomcat-8.5.37/lib/mysql-connector.jar
