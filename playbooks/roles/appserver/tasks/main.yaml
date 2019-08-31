@@ -50,6 +50,6 @@
       mode: 0755
 
    - name: reload systemctl
-     shell: 
+     shell: systemctl daemon-reload
 
     
