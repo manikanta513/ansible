@@ -32,7 +32,7 @@
      get_url:
       url: "${{war_url}}"
       dest: /home/{{user}}/{{tomact_file_name}}/webapps/student.war
-     become
+     become_user: "{{user}}"
    - name: download jdbc jar file
      geturl:
       url: "{{jar_url}}"
