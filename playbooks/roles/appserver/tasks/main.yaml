@@ -20,6 +20,8 @@
       file_type: any
      register: out
 
+   - name: 
+
  
    - name:  download the war file
      get_url:
