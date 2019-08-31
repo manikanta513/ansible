@@ -6,7 +6,7 @@
       paths: /tmp/demo
       recurse: yes
       file_type: any
-    register: out
+     register: out
   
    - name: output files in directory
      debug:
