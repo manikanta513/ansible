@@ -16,6 +16,5 @@
  
 
    - name:  download the war file
-     url_get:
+     get_url:
       url: "${{war_url}}"
-      
