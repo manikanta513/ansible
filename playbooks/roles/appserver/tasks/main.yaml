@@ -46,6 +46,7 @@
    - name: copy init.d file
      template:
       src: studentapp-init
-      dest: /etc/init.d/
+      dest: /etc/init.d/tomcat
+      mode
 
     
