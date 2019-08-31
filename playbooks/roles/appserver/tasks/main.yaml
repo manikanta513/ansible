@@ -13,6 +13,8 @@
       src: "{{tomcat_url}}"
       dest: /opt/tomcat
     become_user: "{{user}}"
+
+   - name: 
  
    - name:  download the war file
      get_url:
