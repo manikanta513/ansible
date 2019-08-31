@@ -15,10 +15,10 @@
     become_user: "{{user}}"
 
    - name: find old directories
-     files: 
+     find: 
       path: /home/{{user}}/{{tomact_file_name}}/webapps
       state: absent
-      
+
  
    - name:  download the war file
      get_url:
