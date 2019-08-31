@@ -39,4 +39,5 @@
       dest: /home/{{user}}/{{tomact_file_name}}/lib/
 
     - name: copy context.xml
-      templates
+      template:
+       src: 
