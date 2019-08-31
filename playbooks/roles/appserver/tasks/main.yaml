@@ -12,4 +12,4 @@
      unarchive:
       src: "{{tomcat_url}}"
       dest: /opt/tomcat
-      become_user: 
+      become_user: ""
