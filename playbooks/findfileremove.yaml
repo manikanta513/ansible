@@ -7,4 +7,4 @@
       recurse: yes
     register: out
 
-   - 
+   - name: 
