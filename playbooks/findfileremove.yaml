@@ -13,3 +13,5 @@
       msg: "{{out}}"
 
    - name: delete files in the directory
+     file:
+      path:
