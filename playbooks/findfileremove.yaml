@@ -7,7 +7,7 @@
       recurse: yes
       file_type: any
     register: out
-   name: output files in directory
+   - name: output files in directory
      debug:
       msg: "{{out}}"
 
