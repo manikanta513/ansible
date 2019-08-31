@@ -1,4 +1,4 @@
 -name: getting tomcat vesrion from the variable provided
  hosts: all
  variables: 
-  url:
+  url: 
