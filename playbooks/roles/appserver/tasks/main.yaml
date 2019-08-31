@@ -35,5 +35,5 @@
 
    - name: download jdbc jar file
      geturl:
-      url: 
+      url: "{{jar_url"
       dest: /home/{{user}}/{{tomact_file_name}}/lib/
