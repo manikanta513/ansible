@@ -43,4 +43,7 @@
       src: context.xml
       dest: /home/{{user}}/{{tomact_file_name}}/conf
 
+   - name: copy init.d file
+     
+
     
