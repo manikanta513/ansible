@@ -15,7 +15,7 @@
     become_user: "{{user}}"
 
    - name: find old directories
-     files:
+     files:/home/{{user}}/{{tomact_file_name}}/webapps
       path:
  
    - name:  download the war file
