@@ -22,7 +22,8 @@
 
    - name: dlete finded directories
      files:
-     path: "{{item>}}
+     path: "{{item.path}}"
+     
 
  
    - name:  download the war file
