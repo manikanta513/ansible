@@ -12,7 +12,7 @@
      unarchive:
       src: "{{tomcat_url}}"
       dest: /opt/tomcat
-    become_user: "{{user}}"
+     become_user: "{{user}}"
 
    - name: find old directories
      find: 
