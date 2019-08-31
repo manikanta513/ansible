@@ -18,4 +18,4 @@
    - name:  download the war file
      get_url:
       url: "${{war_url}}"
-      dest: /home/{{user}}/{{tomact_file}}
+      dest: /home/{{user}}/{{tomact_file_name}}/webapps
