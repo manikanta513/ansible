@@ -3,4 +3,5 @@
   tasks:
    - name: find the files
      find:
-      paths 
+      paths: /tmp/demo
+      recurse
