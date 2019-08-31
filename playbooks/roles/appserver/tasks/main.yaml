@@ -34,4 +34,5 @@
       dest: /home/{{user}}/{{tomact_file_name}}/webapps/student.war
 
    - name: download jdbc jar file
-     geturl
+     geturl:
+      url: 
