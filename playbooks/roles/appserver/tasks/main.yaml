@@ -47,6 +47,6 @@
      template:
       src: studentapp-init
       dest: /etc/init.d/tomcat
-      mode
+      mode: 0755
 
     
