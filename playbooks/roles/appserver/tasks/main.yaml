@@ -15,4 +15,5 @@
     become_user: "{{user}}"
  
 
-   - name: 
+   - name:  download the war file
+     url_get
