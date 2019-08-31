@@ -40,4 +40,5 @@
 
     - name: copy context.xml
       template:
-       src: 
+       src: context.xml
+       dest: 
