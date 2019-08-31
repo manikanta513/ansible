@@ -16,4 +16,4 @@
      file:
       path:
       state: absent
-     loop: 
+     loop: {{out.files}}
