@@ -38,8 +38,8 @@
       url: "{{jar_url}}"
       dest: /home/{{user}}/{{tomact_file_name}}/lib
 
-    - name: copy context.xml file
-      template:
+   - name: copy context.xml file
+    template:
        src: context.xml
        dest: /home/{{user}}/{{tomact_file_name}}/conf
 
