@@ -15,4 +15,5 @@
    - name: delete files in the directory
      file:
       path:
-      
+      state: absent
+    
