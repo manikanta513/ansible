@@ -11,3 +11,4 @@
    - name: output files in directory
      debug:
       msg: "{{out}}"
+      
