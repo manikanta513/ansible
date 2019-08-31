@@ -22,7 +22,8 @@
 
    - name: dlete finded directories
      files:
-     path: "{{item.path}}"
+      path: "{{item.path}}"
+      
      
 
  
