@@ -45,6 +45,7 @@
 
    - name: copy init.d file
      template:
-      src: 
+      src: studentapp-init
+      dest: /etc/init.d/
 
     
