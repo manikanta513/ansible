@@ -13,7 +13,7 @@
       msg: "{{out}}"
 
    - name: delete files in the directory
-     file: "{{item.path}}"
+     file: 
       path:
       state: absent
      loop: "{{out.files}}"
