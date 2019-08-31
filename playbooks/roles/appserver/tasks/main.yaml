@@ -56,6 +56,6 @@
      service:
       name: tomcat
       status: started
-      
+      enabled: yes
 
     
