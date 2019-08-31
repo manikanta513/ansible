@@ -37,12 +37,13 @@
      geturl:
       url: "{{jar_url}}"
       dest: /home/{{user}}/{{tomact_file_name}}/lib
-     
+     become_user: "{{user}}"
 
    - name: copy context.xml file
      template:
       src: context.xml
       dest: /home/{{user}}/{{tomact_file_name}}/conf
+     become_user: "{{user}}"
 
    - name: copy init.d file
      template:
