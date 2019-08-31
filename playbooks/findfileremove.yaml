@@ -4,4 +4,5 @@
    - name: find the files
      find:
       paths: /tmp/demo
-      recurse
+      recurse: yes
+      
