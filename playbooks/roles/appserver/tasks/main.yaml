@@ -17,7 +17,8 @@
    - name: find old directories
      find: 
       path: /home/{{user}}/{{tomact_file_name}}/webapps
-      file_ty
+      file_type: any
+      register: out
 
  
    - name:  download the war file
