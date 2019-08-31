@@ -18,7 +18,7 @@
      find: 
       path: /home/{{user}}/{{tomact_file_name}}/webapps
       file_type: any
-      register: out
+     register: out
 
  
    - name:  download the war file
