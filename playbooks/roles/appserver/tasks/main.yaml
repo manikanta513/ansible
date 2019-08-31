@@ -17,6 +17,8 @@
    - name: find old directories
      files: 
       path: /home/{{user}}/{{tomact_file_name}}/webapps
+      state: absent
+      
  
    - name:  download the war file
      get_url:
