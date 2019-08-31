@@ -14,8 +14,7 @@
       dest: /opt/tomcat
     become_user: "{{user}}"
  
-
    - name:  download the war file
      get_url:
       url: "${{war_url}}"
-      dest: /home/{{user}}/{{tomact_file_name}}/webapps
+      dest: /home/{{user}}/{{tomact_file_name}}/webapps/student.war
