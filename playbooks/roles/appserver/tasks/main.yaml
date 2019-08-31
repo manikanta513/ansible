@@ -52,4 +52,6 @@
    - name: reload systemctl
      shell: systemctl daemon-reload
 
+   - name: start tomcat service 
+
     
