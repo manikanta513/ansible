@@ -35,13 +35,13 @@
    - name: download the war file
      get_url:
       url: "{{war_url}}"
-      dest: /home/{{user}}/{{tomact_file_name}}/webapps/student.war
+      dest: /home/{{user}}/{{tomcat_file_name}}/webapps/student.war
      become_user: "{{user}}"
 
    - name: download jdbc jar file
      get_url:
       url: "{{jar_url}}"
-      dest: /home/{{user}}/{{tomact_file_name}}/lib
+      dest: /home/{{user}}/{{tomcat_file_name}}/lib
      become_user: "{{user}}"
 
    - name: copy context.xml file
