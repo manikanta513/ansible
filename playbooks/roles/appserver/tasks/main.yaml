@@ -11,7 +11,7 @@
    - name: download and extract tomcat
      unarchive:
       src: "{{tomcat_url}}"
-      dest: /home/{{user}}/{{tomcat_file_name}}
+      dest: /home/{{user}}
       remote_src: yes
      become_user: "{{user}}"
 
