@@ -35,7 +35,7 @@
      become_user: "{{user}}"
 
    - name: download jdbc jar file
-     geturl:
+     get_url:
       url: "{{jar_url}}"
       dest: /home/{{user}}/{{tomact_file_name}}/lib
      become_user: "{{user}}"
