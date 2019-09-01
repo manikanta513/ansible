@@ -20,7 +20,7 @@
       file_type: any
      register: out
 
-   - name: dlete finded directories
+   - name: delete finded directories
      file:
       path: "{{item.path}}"
       state: absent
