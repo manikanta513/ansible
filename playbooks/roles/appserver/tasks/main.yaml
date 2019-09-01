@@ -11,7 +11,7 @@
    - name: download and extract tomcat
      unarchive:
       src: "{{tomcat_url}}"
-      dest: /opt/tomcat
+      dest: /tomcat
      become_user: "{{user}}"
 
    - name: find old directories
