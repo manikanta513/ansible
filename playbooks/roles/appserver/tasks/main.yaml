@@ -13,7 +13,6 @@
       src: "{{tomcat_url}}"
       dest: /home/{{user}}/{{tomcat_file_name}}
       remote_src: yes
-    
      become_user: "{{user}}"
 
    - name: find old directories
