@@ -16,7 +16,7 @@
      become_user: "{{user}}"
     
    - debug:
-      msg: ""
+      msg: 
 
    - name: find old directories
      find: 
