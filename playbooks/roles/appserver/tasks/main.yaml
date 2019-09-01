@@ -16,7 +16,7 @@
      become_user: "{{user}}"
     
    - debug:
-      msg: 
+      msg: "{{tomcat_url.split('/') | last | regex_replace('.tar.gz', '')}}"
 
    - name: find old directories
      find: 
