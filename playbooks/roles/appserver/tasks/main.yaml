@@ -47,7 +47,7 @@
    - name: copy context.xml file
      template:
       src: context.xml
-      dest: /home/{{user}}/{{tomact_file_name}}/conf
+      dest: /home/{{user}}/{{tomcat_file_name}}/conf
      become_user: "{{user}}"
 
    - name: copy init.d file
