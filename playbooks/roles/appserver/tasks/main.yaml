@@ -65,7 +65,7 @@
    - name: start tomcat service 
      service:
       name: tomcat
-      status: started
+      state: started
       
 
     
