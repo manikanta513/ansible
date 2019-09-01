@@ -43,6 +43,7 @@
      get_url:
       url: "{{jar_url}}"
       dest: /home/{{user}}/{{tomcat_file_name}}/lib
+      
      become_user: "{{user}}"
 
    - name: copy context.xml file
