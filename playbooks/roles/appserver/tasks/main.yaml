@@ -36,6 +36,7 @@
      get_url:
       url: "{{war_url}}"
       dest: /home/{{user}}/{{tomcat_file_name}}/webapps/student.war
+      remote_src: yes
      become_user: "{{user}}"
 
    - name: download jdbc jar file
