@@ -50,7 +50,6 @@
      template:
       src: context.xml
       dest: /home/{{user}}/{{tomcat_file_name}}/conf
-      remote_src: yes
      become_user: "{{user}}"
 
    - name: copy init.d file
