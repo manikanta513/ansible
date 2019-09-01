@@ -22,13 +22,13 @@
      find: 
       path: /home/{{user}}/{{tomact_file_name}}/webapps
       file_type: any
-     register: out
+     register: OUT
 
    - name: delete finded directories
      file:
       path: "{{item.path}}"
       state: absent
-     loop: "{{out.files}}"
+     loop: "{{OUT.files}}"
      
 
  
