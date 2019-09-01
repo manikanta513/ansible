@@ -14,6 +14,7 @@
       dest: /home/{{user}}
       remote_src: yes
      become_user: "{{user}}"
+    
 
    - name: find old directories
      find: 
