@@ -2,5 +2,5 @@ user: student
 user_home: /home/{{user}}
 tomcat_url: http://apache.mirrors.lucidnetworks.net/tomcat/tomcat-8/v8.5.45/bin/apache-tomcat-8.5.45.tar.gz
 war_url: https://s3-us-west-2.amazonaws.com/studentapi-cit/student.war
-jar_url: https://s3-us-west-2.amazonaws.com/studentapi-cit/mysql-connector.jar -O apache-tomcat-8.5.37/lib/mysql-connector.jar
+jar_url: https://s3-us-west-2.amazonaws.com/studentapi-cit/mysql-connector.jar
 tomcat_file_name: "{{tomcat_url.split('/') | last | regex_replace('.tar.gz', '')}}"
