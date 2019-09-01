@@ -1,0 +1,70 @@
+   - name: install java
+     package:
+      name: java
+      state: present
+  
+   - name: add application user
+     user:
+      name: "{{user}}"
+      comment: student
+
+   - name: download and extract tomcat
+     unarchive:
+      src: "{{tomcat_url}}"
+      dest: /home/{{user}}
+      remote_src: yes
+     become_user: "{{user}}"
+    
+   - debug:
+      msg: "{{tomcat_url.split('/') | last | regex_replace('.tar.gz', '')}}"
+
+   - name: find old directories
+     find: 
+      path: /home/{{user}}/{{tomcat_file_name}}/webapps/
+      file_type: any
+     register: OUT
+
+   - name: delete finded directories
+     file:
+      path: "{{item.path}}"
+      state: absent
+     loop: "{{OUT.files}}"
+     
+
+ 
+   - name: download the war file
+     get_url:
+      url: "{{war_url}}"
+      dest: /home/{{user}}/{{tomcat_file_name}}/webapps/student.war
+      remote_src: yes
+     become_user: "{{user}}"
+
+   - name: download jdbc jar file
+     get_url:
+      url: "{{jar_url}}"
+      dest: /home/{{user}}/{{tomcat_file_name}}/lib
+      remote_src: yes
+     become_user: "{{user}}"
+
+   - name: copy context.xml file
+     template:
+      src: context.xml
+      dest: /home/{{user}}/{{tomcat_file_name}}/conf
+     become_user: "{{user}}"
+
+   - name: copy init.d file
+     template:
+      src: studentapp-init
+      dest: /etc/init.d/tomcat
+      mode: 0755
+
+   - name: reload systemctl
+     shell: systemctl daemon-reload
+
+   - name: start tomcat service 
+     service:
+      name: tomcat
+      status: started
+      
+
+    
