@@ -21,7 +21,7 @@
      register: out
 
    - name: dlete finded directories
-     files:
+     file:
       path: "{{item.path}}"
       state: absent
      loop: "{{out.files}}"
