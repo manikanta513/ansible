@@ -20,7 +20,7 @@
 
    - name: find old directories
      find: 
-      path: /home/{{user}}/{{tomcat_file_name}}/webapps
+      path: /home/{{user}}/{{tomcat_file_name}}/webapps/
       file_type: any
      register: OUT
 
