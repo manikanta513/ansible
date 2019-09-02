@@ -1,5 +1,6 @@
 - name: demo on role dependency roleA
   hosts: all
   tasks:
+   - name : diplay output on console
    debug:
     msg: "{{var}}"
