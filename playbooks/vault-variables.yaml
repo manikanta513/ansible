@@ -1,1 +1,4 @@
-- name: encrypting variable value in playbook f
+- name: encrypting variable value in playbook file
+  hosts: all
+  vars:
+  
