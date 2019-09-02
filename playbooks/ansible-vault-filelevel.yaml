@@ -10,7 +10,9 @@
 
 
 #encrypting the .yaml file using ansible-vault feature
-# ansible-vault encrypt playbooks/ansible-
+# ansible-vault encrypt playbooks/ansible-vault-filelevel.yaml
+#above command encrypts the yaml file
+
 
    
   
