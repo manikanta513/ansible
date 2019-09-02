@@ -1,2 +1,5 @@
 - name: demo on role dependency
-  
+  hosts: all
+  tasks:
+   debug:
+    msg: "{{var}}"
