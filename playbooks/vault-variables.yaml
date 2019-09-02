@@ -11,4 +11,4 @@
   tasks:
    - name: priniting variable value on terminal
      debug:
-      msg: "{{"
+      msg: "{{var1}}"
