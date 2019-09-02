@@ -2,5 +2,5 @@
   hosts: all
   tasks:
    - name : diplay output on console
-   debug:
-    msg: "{{var}}"
+     debug:
+      msg: "{{var}}"
