@@ -9,4 +9,5 @@
           6536633531333038660a356534356463303331643135643432643735366361366330363137666131
           3562
   tasks:
-   - name: 
+   - name: priniting variable value on terminal
+     
