@@ -1,5 +1,5 @@
 - name: demo on role dependency roleA
-  hosts: all
+  host: all
   tasks:
    - name : diplay output on console
      debug:
