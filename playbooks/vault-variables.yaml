@@ -12,3 +12,6 @@
    - name: priniting variable value on terminal
      debug:
       msg: "{{var1}}"
+
+
+  # 
