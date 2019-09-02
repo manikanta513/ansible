@@ -1,4 +1,3 @@
-
-   - name : diplay output on console
+- name : diplay output on console
      debug:
       msg: "{{var}}"
