@@ -2,7 +2,8 @@
   hosts: all
   tasks:
    - name: printing mssg on the terminal
-     
+     debug:
+      msg: h
 
    
   
