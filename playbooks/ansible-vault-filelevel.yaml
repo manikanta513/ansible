@@ -14,6 +14,7 @@
 #above command encrypts the yaml file
 # ansible-playbook playbooks/ansible-vault-filelevel.yaml --ask-vault-pass
 # password: test123
+#dec
 
    
   
