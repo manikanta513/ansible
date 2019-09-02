@@ -1,4 +1,4 @@
-- name: demo on role dependency
+- name: demo on role dependency roleA
   hosts: all
   tasks:
    debug:
