@@ -1,6 +1,7 @@
 - name: encrypting the file
   hosts: all
   tasks:
+  
 
    
   
