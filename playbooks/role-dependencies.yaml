@@ -1,5 +1,5 @@
 - name: demo on rolls application
   hosts: all
   roles:
-   - roleA
+   - role
    
