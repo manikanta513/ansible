@@ -15,4 +15,5 @@
 
 
   # how to encrypt variable value inside a playbook
-  # 
+  # ansible-vault encrypt_string test123
+  
