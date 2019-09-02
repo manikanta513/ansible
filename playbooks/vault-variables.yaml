@@ -10,4 +10,5 @@
           3562
   tasks:
    - name: priniting variable value on terminal
-     
+     debug:
+      msg: "{{"
