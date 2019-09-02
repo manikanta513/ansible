@@ -1,7 +1,8 @@
 - name: encrypting the file
   hosts: all
   tasks:
-   - name: print 
+   - name: printing mssg on the terminal
+     
 
    
   
