@@ -15,7 +15,7 @@
 # ansible-playbook playbooks/ansible-vault-filelevel.yaml --ask-vault-pass
 # password: test123
 # decrypt the encrypted file
-# 
+# ansible-vault decrypt playbooks/ansible-vault-filelevel.yaml
 
    
   
