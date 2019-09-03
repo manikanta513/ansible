@@ -18,4 +18,5 @@ modifications made in ansible.conf
 
 inventory = /home/manikantapersonal513/ansible/hosts
 private_key_file = /home/manikantapersonal513/gcp.pem
+host_key_auto_add = True
 
