@@ -1,1 +1,4 @@
 ansible galaxy is a location where u can get prereturn roles.
+
+ansible -i hosts all -u manikantapersonal513 --private-key=gcp.pem -a uptime
+
