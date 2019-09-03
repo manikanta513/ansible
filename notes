@@ -6,4 +6,4 @@ keep hosts file in the location where ur executing commands and also we should m
 
  
 eg: 
-
+ls  /home/manikantapersonal513/ansible
