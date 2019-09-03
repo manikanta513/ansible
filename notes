@@ -2,6 +2,8 @@ ansible galaxy is a location where u can get prereturn roles.
 
 ansible -i hosts all -u manikantapersonal513 --private-key=gcp.pem -a uptime
 
-keep hosts file in the location where ur executing commands and 
+keep hosts file in the location where ur executing commands and also we should maintain ansible.cfg in same location (path: /etc/ansible/ansible.cfg)
+
  
 eg: 
+
