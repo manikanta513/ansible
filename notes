@@ -14,4 +14,6 @@ playbooks
 hosts
 ansible.cfg
 
-modifications made in an
+modifications made in ansible.conf
+
+inventory      = /home/manikantapersonal513/ansible/hosts
