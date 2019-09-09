@@ -9,6 +9,7 @@
    - name: return value check
      debug:
       msg: "{{OUT.rc}}"  
-      
+  
+   - name: command 
       
       
