@@ -10,6 +10,6 @@
      debug:
       msg: "{{OUT.rc}}"  
   
-   - name: command 
+   - name: command result failed when rc
       
       
