@@ -12,6 +12,7 @@
   
    - name: command result failed when rc!=0
      debug:
-     msg: 
+     msg: script ddint get executed succesfully
+     
       
       
