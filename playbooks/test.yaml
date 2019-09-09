@@ -6,4 +6,4 @@
       path: /tmp/test123
       state: absent
       register: OUT
-       
+      failed_when: current_version.rc == 2 
