@@ -3,4 +3,4 @@
   tasks:
    - name: delete a directory 
      file:
-      path:  
+      path: /tmp/ 
