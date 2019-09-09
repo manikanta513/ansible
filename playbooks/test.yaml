@@ -5,4 +5,5 @@
      file:
       path: /tmp/test123
       state: absent
+      register: OUT
        
