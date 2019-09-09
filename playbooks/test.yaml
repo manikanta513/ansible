@@ -1,7 +1,7 @@
 - name: testing the return code
   hosts: all
   tasks:
-   - name: delete a directory 
+   - name: check directory exixts  
      file:
       path: /tmp/test123
       state: absent
