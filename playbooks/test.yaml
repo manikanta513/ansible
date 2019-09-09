@@ -3,4 +3,5 @@
   tasks:
    - name: delete a directory 
      file:
-      path: /tmp/ 
+      path: /tmp/test123
+      state: absent 
