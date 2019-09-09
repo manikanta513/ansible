@@ -1,5 +1,6 @@
 - name: testing the return code
   hosts: all
+
   tasks:
    - name: check directory exists or not
      command: ls -ltr /tmp/test123
