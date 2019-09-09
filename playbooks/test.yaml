@@ -4,4 +4,5 @@
    - name: delete a directory 
      file:
       path: /tmp/test123
-      state: absent 
+      state: absent
+       
