@@ -1,9 +1,8 @@
 - name: testing the return code
   hosts: all
   tasks:
-   - name: check directory exixts  
-     file:
-      path: /tmp/test123
-      state: absent
+   - name: check directory exists or not
+
+     
       
       
