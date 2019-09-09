@@ -11,6 +11,6 @@
       msg: "{{OUT.rc}}"  
   
    - name: command result failed when rc!=0
-     
+     debug 
       
       
