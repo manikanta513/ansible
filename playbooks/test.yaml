@@ -1,4 +1,5 @@
 - name: testing the return code
   hosts: all
   tasks:
-   - name:  
+   - name: delete a directory 
+      
