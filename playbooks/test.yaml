@@ -4,6 +4,8 @@
    
    - name: creating a directory
      file: 
+      path: /tmp/test123
+      state
    
    - name: check directory exists or not
      command: ls -ltr /tmp/test123
