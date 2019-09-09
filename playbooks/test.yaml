@@ -17,6 +17,7 @@
 
 
    - name: creating a directory
-     
+     file:
+      path: /tm
       
       
