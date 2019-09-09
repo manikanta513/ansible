@@ -2,4 +2,5 @@
   hosts: all
   tasks:
    - name: delete a directory 
-      
+     file:
+      path:  
