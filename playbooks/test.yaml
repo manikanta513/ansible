@@ -2,7 +2,8 @@
   hosts: all
   tasks:
    
-   - name: 
+   - name: creating a directory
+     file: 
    
    - name: check directory exists or not
      command: ls -ltr /tmp/test123
