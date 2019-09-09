@@ -8,6 +8,7 @@
 
    - name: return value check
      debug:
-      msg: "{{OUT.rc"  
+      msg: "{{OUT.rc}}"  
+      when 
       
       
