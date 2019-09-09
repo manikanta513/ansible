@@ -13,7 +13,7 @@
    - name: command result failed when rc!=0
      debug:
       msg: script ddint get executed succesfully
-     failed_when: OUT.rc != 0
+     failed_when: OUT.rc > 0
 
 
    - name: creating a directory
