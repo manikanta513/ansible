@@ -8,6 +8,6 @@
 
    - name: return value check
      debug:
-      msg: "{{"  
+      msg: "{{OUT.rc"  
       
       
