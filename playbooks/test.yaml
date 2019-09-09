@@ -13,6 +13,6 @@
    - name: command result failed when rc!=0
      debug:
      msg: script ddint get executed succesfully
-     faile
+     failed_when: 
       
       
