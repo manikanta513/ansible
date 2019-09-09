@@ -4,7 +4,7 @@
    - name: check directory exists or not
      command: ls -ltr /tmp/test123
      register: OUT
-     
+  
 
      
       
