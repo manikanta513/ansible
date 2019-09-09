@@ -12,7 +12,7 @@
   
    - name: command result failed when rc!=0
      debug:
-     msg: script ddint get executed succesfully
+      msg: script ddint get executed succesfully
      failed_when: OUT.rc != 0
 
 
